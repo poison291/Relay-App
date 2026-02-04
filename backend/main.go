@@ -21,7 +21,7 @@ type Response struct{ Message Message }
 func main() {
 	history := []Message{{Role: "system", Content: "You are LLama, a helpful AI assistant."}}
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Println("=== Mill Chat CLI ===\nType 'exit' to quit.")
+	fmt.Println("=== Relay Chat CLI ===\nType 'exit' to quit.")
 	for {
 		fmt.Print("\nYou: ")
 		input, _ := reader.ReadString('\n')

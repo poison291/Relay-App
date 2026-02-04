@@ -1,4 +1,4 @@
-Mill
+Relay
 ====
 
 A local-first AI desktop app for Windows that runs language models directly on your machine.
@@ -6,9 +6,9 @@ A local-first AI desktop app for Windows that runs language models directly on y
 Overview
 --------
 
-Mill is a clean, fast desktop interface for local LLMs built without relying on cloud APIs, browser limitations, or heavyweight tooling. Most existing options either feel over-engineered, locked behind services, or aren't really designed for daily use.
+Relay is a clean, fast desktop interface for local LLMs built without relying on cloud APIs, browser limitations, or heavyweight tooling. Most existing options either feel over-engineered, locked behind services, or aren't really designed for daily use.
 
-Mill combines a Go-based backend with a React UI, packaged as a native Windows desktop application using Tauri. The backend handles model communication and streaming responses, while the frontend focuses on being minimal, fast, and usable.
+Relay combines a Go-based backend with a React UI, packaged as a native Windows desktop application using Tauri. The backend handles model communication and streaming responses, while the frontend focuses on being minimal, fast, and usable.
 
 Everything runs locally. No telemetry. No external inference.
 
@@ -17,7 +17,7 @@ Philosophy
 
 This project is still evolving. The goal isn't to compete with large platforms, but to build something practical and understandable that does one thing well: give you control over your local AI setup.
 
-Mill is opinionated by design:
+Relay is opinionated by design:
 
 *   **Local execution over remote APIs** – Your data stays on your machine. No cloud dependencies, no network requests for inference.
     
@@ -26,7 +26,7 @@ Mill is opinionated by design:
 *   **Simple architecture over complex abstractions** – Straightforward codebase that you can actually read and understand. No unnecessary layers or magic.
     
 
-Why Mill?
+Why Relay?
 ---------
 
 ### Privacy by Default
@@ -78,7 +78,7 @@ Expect rough edges, iteration, and changes as the project grows. This is a tool 
 Who This Is For
 ---------------
 
-If you care about owning your tools and understanding how they work, Mill is for you.
+If you care about owning your tools and understanding how they work, Relay is for you.
 
 This project is for people who:
 
@@ -107,7 +107,7 @@ Getting Started
 Contributing
 ------------
 
-Mill is open to contributions, feedback, and ideas. Since this is an evolving project built from real use cases, practical improvements and bug reports are especially valuable.
+Relay is open to contributions, feedback, and ideas. Since this is an evolving project built from real use cases, practical improvements and bug reports are especially valuable.
 
 Roadmap
 -------
