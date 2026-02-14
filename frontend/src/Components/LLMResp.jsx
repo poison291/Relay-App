@@ -12,6 +12,8 @@ function MessageBox({ activeChat }) {
         textareaRef.current.scrollHeight + "px";
     }
   }, [message]);
+  
+  console.log("You Type:", message);
 
   if (!activeChat) {
     return (
